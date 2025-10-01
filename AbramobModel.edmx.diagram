@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c6de690a0b054fb99a2aac457a873d9b" Name="Diagram1">
+        <EntityTypeShape EntityType="АбрамовАвтосервисModel.Client" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="АбрамовАвтосервисModel.ClientService" Width="1.5" PointX="3" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="АбрамовАвтосервисModel.DocumentByService" Width="1.5" PointX="5.25" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="АбрамовАвтосервисModel.Gender" Width="1.5" PointX="1.5" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="АбрамовАвтосервисModel.Manufacturer" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="АбрамовАвтосервисModel.Product" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="АбрамовАвтосервисModel.ProductPhoto" Width="1.5" PointX="5.25" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="АбрамовАвтосервисModel.ProductSale" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="АбрамовАвтосервисModel.Service" Width="1.5" PointX="0.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="АбрамовАвтосервисModel.ServicePhoto" Width="1.5" PointX="3" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="АбрамовАвтосервисModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="АбрамовАвтосервисModel.Tag" Width="1.5" PointX="3" PointY="16.25" IsExpanded="true" />
+        <AssociationConnector Association="АбрамовАвтосервисModel.FK_Client_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="АбрамовАвтосервисModel.FK_ClientService_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="АбрамовАвтосервисModel.FK_ClientService_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="АбрамовАвтосервисModel.FK_DocumentByService_ClientService" ManuallyRouted="false" />
+        <AssociationConnector Association="АбрамовАвтосервисModel.FK_ProductSale_ClientService" ManuallyRouted="false" />
+        <AssociationConnector Association="АбрамовАвтосервисModel.FK_Product_Manufacturer" ManuallyRouted="false" />
+        <AssociationConnector Association="АбрамовАвтосервисModel.FK_ProductPhoto_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="АбрамовАвтосервисModel.FK_ProductSale_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="АбрамовАвтосервисModel.FK_ServicePhoto_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="АбрамовАвтосервисModel.AttachedProduct" ManuallyRouted="false" />
+        <AssociationConnector Association="АбрамовАвтосервисModel.TagOfClient" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
